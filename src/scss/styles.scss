@@ -11,6 +11,7 @@ $card-bg : hsl(216, 50%, 16%);
 $card-border-radius: 1rem;
 
 @import "~bootstrap/scss/bootstrap";
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
