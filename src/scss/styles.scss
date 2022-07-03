@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800&family=Outfit:wght@300;400;600&display=swap');
+
+$font-family-sans-serif : 'Outfit', sans-serif;
+$primary : hsl(0, 0%, 100%);
+$secondary :  hsl(178, 100%, 50%);
+$danger : hsl(215, 51%, 70%);
+$success : hsl(215, 32%, 27%);
+$dark : hsl(217, 54%, 11%);
+
+$card-bg : hsl(216, 50%, 16%);
+$card-border-radius: 1rem;
+
+@import "~bootstrap/scss/bootstrap";
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.avatar-width{
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 576px){
+  .card-width{
+    width: 30rem !important;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .card-width{
+    width: 18rem !important;
+  }
+}
